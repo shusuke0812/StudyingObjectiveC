@@ -37,4 +37,4 @@ Objective-C 勉強用のサンプルコード（基礎編）
 - idは汎用型（Objective-C固有）  
 
 ## 参考文献  
-- [一番初めのObjective-Cプログラム] (https://www.atmarkit.co.jp/ait/articles/0810/08/news117.html)
+- [一番初めのObjective-Cプログラム](https://www.atmarkit.co.jp/ait/articles/0810/08/news117.html)
