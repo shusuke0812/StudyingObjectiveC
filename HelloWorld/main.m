@@ -1,7 +1,7 @@
 #import "Song.h"
 #import "Singer.h"
 
-// 実行プログラム
+/* 実行プログラム */
 int main(void) {
 	id song;
 	id singer;

@@ -1,7 +1,8 @@
 #import "Song.h"
 
-// Songクラスの実装
 /*
+ * Songクラスの実装
+ *
  * 下記はアクセサ
  * lyrics：メンバの値を取得
  * setLyrics：メンバに値をセット

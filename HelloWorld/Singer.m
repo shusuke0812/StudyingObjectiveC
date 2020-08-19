@@ -1,6 +1,6 @@
 #import "Singer.h"
 
-// Singerクラスの実装
+/* Singerクラスの実装 */
 @implementation Singer: NSObject
 - (void)setSong:(Song *)argSong {
 	song = argSong;
