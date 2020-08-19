@@ -33,5 +33,8 @@ Objective-C 勉強用のサンプルコード（基礎編）
 - クラス実装もコンパイラディレクティブ内で行う
 - 書き方は、`@implementation クラス名: スーパークラス名`
 
+#### 型
+- idは汎用型（Objective-C固有）  
+
 ## 参考文献  
 - [一番初めのObjective-Cプログラム] (https://www.atmarkit.co.jp/ait/articles/0810/08/news117.html)
