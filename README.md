@@ -57,3 +57,4 @@ gcc -o ファイル名1.m ファイル名2.m -framework Foundation
 
 ## 参考文献  
 - [一番初めのObjective-Cプログラム](https://www.atmarkit.co.jp/ait/articles/0810/08/news117.html)
+- [ライブラリ：MXParallaxHeader](https://github.com/maxep/MXParallaxHeader)  
