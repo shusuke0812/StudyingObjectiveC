@@ -6,5 +6,6 @@
 	song = argSong;
 }
 - (void)sing {
-	print("♪ %s ♪ \n", [[song lyrics] UTF8String]);
+	printf("♪ %s ♪ \n", [[song lyrics] UTF8String]);
 }
+@end

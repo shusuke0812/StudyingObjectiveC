@@ -9,7 +9,7 @@ int main(void) {
 	song = [[Song alloc] init];
 	[song setLyrics:@"La La La ..."];
 
-	singer = [Singer alloc] init];
+	singer = [[Singer alloc] init];
   [singer setSong:song];
 	[singer sing];
 

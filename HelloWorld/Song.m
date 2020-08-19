@@ -11,7 +11,7 @@
 - (NSString *)lyrics {
 	return lyrics;
 }
-- (void)setLyrics:(NSStirng *)argLyrics {
+- (void)setLyrics:(NSString *)argLyrics {
 	lyrics = argLyrics;
 }
 @end
