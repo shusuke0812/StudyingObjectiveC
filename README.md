@@ -23,5 +23,8 @@ Objective-C 勉強用のサンプルコード（基礎編）
 - 実行プログラムはmain関数に書く（main.m）
 - ヘッダファイルの読み込み指示はプリプロセッサ命令#import文をファイルの先頭に記述
 
+#### クラス宣言
+- 書き方は、@interface クラス名: スーパークラス名
+
 ## 参考文献  
 - [一番初めのObjective-Cプログラム] (https://www.atmarkit.co.jp/ait/articles/0810/08/news117.html)
