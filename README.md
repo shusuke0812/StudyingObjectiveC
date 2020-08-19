@@ -52,5 +52,8 @@ gcc -o ファイル名1.m ファイル名2.m -framework Foundation
 #### 型
 - idは汎用型（Objective-C固有）  
 
+#### オブジェクトメソッド呼び出し
+- 呼び出したいメソッドがあるオブジェクトを[ ]で囲ってメッセージを送る（Swiftで言う オブジェクト.メソッド() ）
+
 ## 参考文献  
 - [一番初めのObjective-Cプログラム](https://www.atmarkit.co.jp/ait/articles/0810/08/news117.html)
