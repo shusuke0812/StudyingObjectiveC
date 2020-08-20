@@ -55,6 +55,7 @@ gcc -o ファイル名1.m ファイル名2.m -framework Foundation
 #### オブジェクトメソッド呼び出し
 - 呼び出したいメソッドがあるオブジェクトを[ ]で囲ってメッセージを送る（Swiftで言う オブジェクト.メソッド() ）
 ```objectivec
+/* メッセージ式の使用例 */
 /* クラス宣言 */
 @interface TestClass: NSObject {
 	NSString *testString;
