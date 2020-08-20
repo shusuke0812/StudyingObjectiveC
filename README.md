@@ -55,6 +55,9 @@ gcc -o ファイル名1.m ファイル名2.m -framework Foundation
 #### オブジェクトメソッド呼び出し
 - 呼び出したいメソッドがあるオブジェクトを[ ]で囲ってメッセージを送る（Swiftで言う オブジェクト.メソッド() ）
 
+#### オプショナル型
+- NS_ASSUME_NONNULL_BEGINとNS_ASSUME_NONNULL_ENDで囲った範囲のプロパティとメソッドはnonnullとする、ただし、その範囲内でも明示的にnullableを指定すればnullableとして扱うことが可能
+
 ## 参考文献  
 - [一番初めのObjective-Cプログラム](https://www.atmarkit.co.jp/ait/articles/0810/08/news117.html)
 - [ライブラリ：MXParallaxHeader](https://github.com/maxep/MXParallaxHeader)  
