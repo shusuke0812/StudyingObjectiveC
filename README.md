@@ -54,6 +54,31 @@ gcc -o ファイル名1.m ファイル名2.m -framework Foundation
 
 #### オブジェクトメソッド呼び出し
 - 呼び出したいメソッドがあるオブジェクトを[ ]で囲ってメッセージを送る（Swiftで言う オブジェクト.メソッド() ）
+```objectivec
+/* クラス宣言 */
+@interface TestClass: NSObject {
+	NSString *testString;
+}
+- (void)setTestString: (NSString *)test;
+@end
+
+/* クラス実装 */
+@implementation TestClass: NSObject
+- (void)setTestString: (NSString *)test {
+	testString = test;
+}
+@end
+
+/* 実行プログラム */
+int main(void) {
+	id testClass;
+	testClass = [[TestClass alloc] init];
+	[TestClass setTestString:@"La La La"];
+
+	return 0
+}
+```
+
 
 #### オプショナル型
 - NS_ASSUME_NONNULL_BEGINとNS_ASSUME_NONNULL_ENDで囲った範囲のプロパティとメソッドはnonnullとする、ただし、その範囲内でも明示的にnullableを指定すればnullableとして扱うことが可能
