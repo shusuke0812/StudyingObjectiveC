@@ -31,6 +31,7 @@
 @property (nonatomic, strong) NSMutableArray<UIScrollView *> *observedViews;
 @end
 
+/* @interface MXScrollView: UIScrollView */
 @implementation MXScrollView {
     BOOL _isObserving;
     BOOL _lock;
